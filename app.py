@@ -187,5 +187,9 @@ def reset_password():
         return redirect(url_for('login'))
     return render_template('reset_password.html')
 
+@app.route("/")
+def index():
+    return redirect(url_for('chat_ui'))
+
 if __name__ == "__main__":
     app.run(debug=True)
