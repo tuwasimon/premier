@@ -44,7 +44,7 @@ else:
     school_info = "School information not available."
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "gsk_sU30UQp8GPdegOx4MjEFWGdyb3FYERujPorG3aJ0aQ5XhVfAKEVi"
 
 app.secret_key = 'your_secret_key_here'  # Change this to a secure random value
 
@@ -92,7 +92,7 @@ def chat():
                 "Content-Type": "application/json"
             },
             json={
-                "model": "llama3-8b-8192",
+                "model": "mixtral-8x7b-32768",
                 "messages": [
                     {
                         "role": "system",
