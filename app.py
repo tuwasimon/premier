@@ -44,7 +44,7 @@ else:
     school_info = "School information not available."
 
 # Replace with your actual Groq API key
-GROQ_API_KEY = "gsk_sU30UQp8GPdegOx4MjEFWGdyb3FYERujPorG3aJ0aQ5XhVfAKEVi"
+GROQ_API_KEY = "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"
 
 app.secret_key = 'your_secret_key_here'  # Change this to a secure random value
 
